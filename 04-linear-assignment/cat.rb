@@ -44,6 +44,23 @@ end
 #puts brightness_values.inspect
 
 lp = File.open("mosaic.lp", "w")
+lp.puts "minimize"
+
+puts "Minimize the total cost of putting each cartoon in each grid cell:"
+step = 1.0 / (num_cartoons - 1)
+terms = []
+num_cartoons.times do |cartoon|
+  cartoon_brightness = step * cartoon
+
+  num_rows.times do |y|
+    num_columns.times do |x|
+      delta = (cartoon_brightness - brightness_values[y][x]) ** 2
+      terms.push("#{delta} cartoon_#{cartoon}_y_#{y}_x_#{x}")
+    end
+  end
+end
+lp.puts "  #{terms.join(" + ")}"
+
 lp.puts "subject to"
 
 puts "There has to be exactly one cartoon in each block:"
