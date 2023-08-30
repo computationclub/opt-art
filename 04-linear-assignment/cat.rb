@@ -107,6 +107,18 @@ end
 lp.puts "end"
 lp.close
 
+puts "Running solver..."
+result = `gurobi_cl Resultfile=mosaic.sol Logfile=mosaic.log Method=0 mosaic.lp`
+success = result.include?("Wrote result file 'mosaic.sol'")
+
+if success
+  puts "Solved successfully!"
+else
+  puts "Failed to find a solution"
+  exit 1
+end
+
+
 #left = block_x * block_size
 #top = block_y * block_size
 #right = left + block_size
