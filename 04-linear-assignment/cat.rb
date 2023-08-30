@@ -91,6 +91,17 @@ num_cartoons.times do |cartoon|
   lp.puts "  #{terms.join(" + ")} == #{num_of_each_cartoon}"
 end
 
+lp.puts "integers"
+puts "Each cartoon can either appear or not appear in each grid cell:"
+num_cartoons.times do |cartoon|
+  num_rows.times do |y|
+    num_columns.times do |x|
+      lp.puts "  cartoon_#{cartoon}_y_#{y}_x_#{x}"
+    end
+  end
+end
+
+lp.puts "end"
 lp.close
 
 #left = block_x * block_size
