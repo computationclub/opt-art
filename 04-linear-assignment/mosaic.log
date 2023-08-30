@@ -1,0 +1,1176 @@
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:20:34 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.02 seconds
+: 1304 rows, 10368 columns, 20736 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+
+Unable to retrieve attribute 'X'
+
+
+Error 10010: Model too large for size-limited license; visit https://www.gurobi.com/free-trial for a full license
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:23:53 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.01 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0x4eb642e9
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve time: 0.01s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+
+Root relaxation: infeasible, 182 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (182 simplex iterations) in 0.02 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:24:22 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.01 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0x4eb642e9
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve time: 0.01s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+
+Root relaxation: infeasible, 182 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (182 simplex iterations) in 0.02 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:24:27 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 0 rows, 1848 columns, 0 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 0 rows, 1848 columns and 0 nonzeros
+Model fingerprint: 0xeb855533
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:24:52 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 231 rows, 1848 columns, 1848 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 231 rows, 1848 columns and 1848 nonzeros
+Model fingerprint: 0xa7dac8d4
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 117.0326769
+Presolve removed 231 rows and 1848 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.255463 117.033 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.554627309978e-01, best bound 2.554627309978e-01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:27:02 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.01 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.01s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:28:37 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.01 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.01s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:28:45 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:29:45 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:30:42 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:31:03 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:32:14 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:32:20 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:32:34 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:33:07 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:33:11 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:35:42 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:36:06 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:36:17 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:36:34 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:36:51 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:37:03 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:37:10 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:39:03 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+
+
+Gurobi 10.0.2 (mac64[arm], gurobi_cl) logging started Wed Aug 30 20:39:49 2023
+
+Set parameter Method to value 0
+Set parameter LogFile to value "mosaic.log"
+Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Warning: At least one constraint uses '==' instead of '=' as sense.
+Read LP format model from file mosaic.lp
+Reading time = 0.00 seconds
+: 239 rows, 1848 columns, 3696 nonzeros
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 239 rows, 1848 columns and 3696 nonzeros
+Model fingerprint: 0xc6b99928
+Variable types: 0 continuous, 1848 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-09, 8e-01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 44.8838310
+Presolve time: 0.00s
+Presolved: 239 rows, 1848 columns, 3696 nonzeros
+Variable types: 0 continuous, 1848 integer (1848 binary)
+Found heuristic solution: objective 40.5234858
+
+Root relaxation: objective 1.149651e+01, 1430 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      11.4965119   11.49651  0.00%     -    0s
+
+Explored 1 nodes (1430 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 11.4965 40.5235 44.8838 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.149651189780e+01, best bound 1.149651189780e+01, gap 0.0000%
+
+Wrote result file 'mosaic.sol'
+

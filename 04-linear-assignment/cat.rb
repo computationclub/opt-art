@@ -7,9 +7,6 @@ num_cartoons = 8
 width = image.columns
 height = image.rows
 
-mosaic = Magick::Image.new(width, height)
-pencil = Magick::Draw.new
-
 num_columns = width / block_size
 num_rows = height / block_size
 
@@ -118,23 +115,31 @@ else
   exit 1
 end
 
+mosaic = Magick::Image.new(width, height)
+pencil = Magick::Draw.new
+
 File.read("mosaic.sol").lines.drop(1).each do |line|
-  parts = line.split(" ").first.split("_")
+  parts = line.split(" ")
+  next if parts.last == "0"
+
+  parts = parts.first.split("_")
 
   cartoon = Integer(parts[1])
   block_y = Integer(parts[3])
   block_x = Integer(parts[5])
 
+  puts "Cartoon #{cartoon} is at #{block_x}, #{block_y}"
 
+  left = block_x * block_size
+  top = block_y * block_size
+  right = left + block_size
+  bottom = top + block_size
+
+  color = (cartoon * step * 255).round
+
+  pencil.fill("rgb(#{color}, #{color}, #{color})")
+  pencil.rectangle(left, top, right, bottom)
 end
 
-#left = block_x * block_size
-#top = block_y * block_size
-#right = left + block_size
-#bottom = top + block_size
-#
-#pencil.rectangle(left, top, right, bottom)
-#
-#pencil.draw(mosaic)
-#mosaic.write("mosaic.jpg")
-#
+pencil.draw(mosaic)
+mosaic.write("mosaic.jpg")
