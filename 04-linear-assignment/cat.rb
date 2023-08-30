@@ -17,7 +17,7 @@ num_variables = num_cartoons * num_columns * num_rows
 puts "There are #{num_variables} variables (2000 are allowed)"
 
 total_blocks = num_columns * num_rows
-num_of_each_cartoon = total_blocks / num_columns
+num_of_each_cartoon = (total_blocks.to_f / num_cartoons).floor
 
 puts "There are #{total_blocks} blocks in total."
 puts "And we have #{num_cartoons} cartoons."
@@ -81,7 +81,7 @@ end
 
 lp.puts
 
-puts "There has to be exactly #{num_of_each_cartoon} of each cartoon in the mosaic."
+puts "There has to be at least #{num_of_each_cartoon} of each cartoon in the mosaic."
 num_cartoons.times do |cartoon|
   terms = []
 
@@ -91,7 +91,7 @@ num_cartoons.times do |cartoon|
     end
   end
 
-  lp.puts "  #{terms.join(" + ")} == #{num_of_each_cartoon}"
+  lp.puts "  #{terms.join(" + ")} >= #{num_of_each_cartoon}"
 end
 
 lp.puts "integers"
