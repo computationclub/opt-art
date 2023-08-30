@@ -118,6 +118,15 @@ else
   exit 1
 end
 
+File.read("mosaic.sol").lines.drop(1).each do |line|
+  parts = line.split(" ").first.split("_")
+
+  cartoon = Integer(parts[1])
+  block_y = Integer(parts[3])
+  block_x = Integer(parts[5])
+
+
+end
 
 #left = block_x * block_size
 #top = block_y * block_size
