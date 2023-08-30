@@ -1,7 +1,7 @@
 require "rmagick"
 
 image = Magick::Image.read("cat.jpg").first
-block_size = 25
+block_size = 57
 num_cartoons = 8
 
 width = image.columns
@@ -12,6 +12,9 @@ pencil = Magick::Draw.new
 
 num_columns = width / block_size
 num_rows = height / block_size
+
+num_variables = num_cartoons * num_columns * num_rows
+puts "There are #{num_variables} variables (2000 are allowed)"
 
 total_blocks = num_columns * num_rows
 num_of_each_cartoon = total_blocks / num_columns
