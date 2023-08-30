@@ -59,6 +59,21 @@ num_rows.times do |y|
   end
 end
 
+lp.puts
+
+puts "There has to be exactly #{num_of_each_cartoon} of each cartoon in the mosaic."
+num_cartoons.times do |cartoon|
+  terms = []
+
+  num_rows.times do |y|
+    num_columns.times do |x|
+      terms.push("cartoon_#{cartoon}_y_#{y}_x_#{x}")
+    end
+  end
+
+  lp.puts "  #{terms.join(" + ")} == #{num_of_each_cartoon}"
+end
+
 lp.close
 
 #left = block_x * block_size
